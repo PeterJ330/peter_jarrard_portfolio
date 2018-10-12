@@ -1,0 +1,396 @@
+
+html {
+    
+}
+
+header {
+    background-color: #ffffff;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    border-bottom: outset;
+    border-bottom-color: lavender;
+    margin: auto;
+}
+
+body {
+    background-color: #cbd0d4de;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.title {
+    margin: auto;
+    width: 960px;
+}
+
+.yourname {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18pt;
+    width: 25%;
+    padding-top: 17px;
+    padding-bottom: 18.5px;
+    margin-bottom: -10%;
+}
+
+.contact, .portfolio, .about {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #77777777;
+    padding: 5px;
+    margin-top: 15px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.headerbutton:hover {
+    color: #4aaaa5;
+}
+
+.contact {
+    background-color: #ffffffff;
+    width: 100px;
+    float: right;
+} 
+
+.portfolio {
+    background-color: #ffffffff;
+    width: 100px;
+    float: right;
+    border-right-color: #77777777;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+.about {
+    background-color:  #ffffffff;
+    width: 100px;
+    float: right;
+    border-right-color: #77777777;
+    border-right-style: solid;
+    border-right-width: thin;
+}
+
+.content {
+    background-color: #ffffff;
+    clear: both;
+    width: 960px;
+    margin: auto;
+}
+
+.text {
+    color: #777777;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    height: 500px;
+    padding: 25px;
+    margin-top: 5%;
+    overflow: auto;
+}
+
+.subtitle {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-size: 16pt;
+    border-bottom: 2.5px solid #cccccccc;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    clear: both;
+}
+
+.image {
+    clear: both;
+    width: 200px;
+    height:150px;
+    float: left;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+footer {
+    background-color: #666666;
+    border-top: solid;
+    border-top-color: #4aaaa5;
+    border-top-width: 10px;
+    width: 100%;
+    clear: both;
+    height: 69px;
+    margin-top: 242.5px;
+    position: relative;
+    bottom: 0;
+}
+
+/* ===================================================  980px  ============================================================================ */
+
+@media screen and (max-width: 980px) {
+        .title {
+            max-width: 100%;
+            margin-right: 40px;
+        }
+
+        .yourname {
+            margin-left: 40px;
+            width: 240px;
+        }
+
+        .content {
+            max-width: 545px;
+            margin-left: 40px;
+        }
+
+        .portfolioimages {
+            margin: auto;
+            padding: 0%;
+        }
+
+        #namefield {
+            width: 485px;
+        }
+        
+        #emailfield {
+            width: 485px;
+        }
+
+        #messagetext {
+            max-width: 485px;
+            min-width: 485px;
+            max-height: 175px;
+        }
+        footer {
+            width: 100%;
+            /* margin: 0; */
+            /* position: absolute; */
+        }
+
+        #portfoliofooter {
+            width: 100%;
+            /* margin: 0; */
+            /* position: absolute; */
+        }
+
+    }
+
+/* ===================================================  768px  ============================================================================ */
+
+
+@media screen and (max-width: 768px){
+        .title {
+            max-width: 100%;
+            /* margin-right: 40px; */
+            margin: auto;
+        }
+
+        .yourname {
+            margin-left: 26.5px;
+            width: 192px;
+        }
+
+        .content {
+            max-width: 700px;
+            margin: auto;
+        }
+
+        .portfolioimages {
+            margin: auto;
+            padding: 0%;
+        }
+
+        #namefield {
+            width: 637px;
+        }
+        
+        #emailfield {
+            width: 637px;
+        }
+
+        #messagetext {
+            max-width: 637px;
+            min-width: 637px;
+            max-height: 175px;
+        }
+
+        .contact, .portfolio, .about {
+            font-size: 80%;
+            width: 80px;
+        }
+
+        .contact {
+            margin-right: 15px;
+        }
+        footer {
+            width: 100%;
+            /* margin: 0; */
+            /* position: absolute; */
+        }
+
+        #portfoliofooter {
+            /* margin: 0; */
+            /* position: absolute; */
+        }
+
+
+    }
+
+/* ===================================================  640px  ============================================================================ */
+
+@media screen and (max-width: 640px){
+        header {
+            width: 100%;
+        }
+        
+
+        .title {
+            width: 100%;
+            margin: 0;
+        }
+        .yourname {
+            margin: auto;
+            width: 100%;
+            float: left;
+        }
+
+        .contact, .portfolio, .about {
+            font-size: 80%;
+            margin: auto;
+            display: inline;
+        }
+
+        .about {
+            float: left;
+            width: 30%;
+        }
+
+        .portfolio {
+            width: 32.25%;
+        }
+
+        .contact {
+            width: 30%;
+        }
+
+        .content {
+            width: 100%;
+            
+            height: 700px;
+            margin: auto;
+        }
+
+        .text {
+           
+            height: 650px;
+            /* overflow: hidden; */
+        }
+
+        #namefield {
+            width: 351px;
+        }
+        
+        #emailfield {
+            width: 351px;
+        }
+
+        #messagetext {
+            max-width: 351px;
+            min-width: 351px;
+            max-height: 175px;
+        }
+
+        .portfolioimages {
+            /* margin: 0; */
+            /* padding: 0; */
+            margin: auto;
+            width: 400px;
+        }
+
+        #image1 {
+            width: 364px;
+            height:273px;
+        }
+        
+        #image2 {
+            width: 364px;
+            height:273px;
+            margin-top: 10px;
+        }
+        
+        #image3 {
+            width: 364px;
+            height:273px;
+            margin-top: 10px;
+        }
+        
+        #image4 {
+            width: 364px;
+            height:273px;
+            margin-top: 10px;
+        }
+        
+        #image5 {
+            width: 364px;
+            height:273px;
+            margin-top: 10px;
+        }
+        
+        #image6 {
+            width: 364px;
+            height:273px;
+            margin-top: 10px;
+        }
+        
+        #imagetext1 {
+            width: 364px;
+            height: 37.5px;
+        }
+    
+        #imagetext2 {
+            width: 364px;
+            height: 37.5px;
+            float: none;
+            margin-left: 10px;
+        }
+    
+        #imagetext3 {
+            width: 364px;
+            height: 37.5px;
+        }
+        
+        #imagetext4 {
+            width: 364px;
+            height: 37.5px;
+            float: none;
+            margin-left: 10px;
+        }
+    
+        #imagetext5 {
+            width: 364px;
+            height: 37.5px;
+        }
+        
+        #imagetext6 {
+            width: 364px;
+            height: 37.5px;
+            float: none;
+            margin-left: 10px;
+        }
+    
+        footer {
+            width: 100%;
+            /* margin: 0; */
+            /* position: absolute; */
+        }
+
+        #portfoliofooter {
+            /* margin: 0; */
+            /* position: absolute; */
+
+
+        }
+
+
+  }
