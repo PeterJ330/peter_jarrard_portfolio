@@ -1,0 +1,27 @@
+
+button:hover {
+    background-color: #4aaaa5;
+    color: white
+}
+
+.linkedinlogo {
+    float: left;
+    /* clear: both; */
+}
+
+.githublogo {
+    margin-top: 20px;
+    margin-left: 257.5px;
+    width: 206px;
+    height: 56px;
+    float: left;
+    /* clear: both; */
+}
+
+.emaillogo {
+    /* margin-top: 50px; */
+    float: right;
+    /* clear: both; */
+    width: 100px;
+    height: 100px;
+}
