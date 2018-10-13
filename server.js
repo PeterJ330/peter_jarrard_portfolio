@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 
 
 // Routes
-require("./routes/htmlRoutes")(app);
+require("./routes/html_Routes")(app);
 
 app.listen(PORT, function () {
     console.log(
